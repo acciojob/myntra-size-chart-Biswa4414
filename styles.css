@@ -1,2 +1,16 @@
 
-/* Your CSS Code here. */
+td,th,table{
+	border:1px solid black;
+	width:500px;
+	length:100px;
+	border-collapse:collapse;
+}
+td{
+    text-align:end;
+}
+td:nth-child(1){
+	text-align:start;
+}
+th{
+	text-align:start;
+}
